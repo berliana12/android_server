@@ -1,0 +1,251 @@
+/* ================================================ color ====================================================== */
+.color-primary {
+    color: #574AE2 !important;
+}
+
+.color-secondary {
+    color: #26CDAB !important;
+}
+
+.color-thernary {
+    color: #574AE2 !important;
+}
+
+.color-silver {
+    color: #535461 !important;
+}
+
+.color-silver-1 {
+    color: #969696 !important;
+}
+
+
+
+
+/* ================================================ /color ====================================================== */
+
+
+/* ================================================ font ====================================================== */
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(/user/assets/font/Lato-Regular.ttf)
+}
+
+body {
+    font-family: lato;
+}
+
+p {
+    color: #383838;
+    font-size: 14px;
+
+}
+
+.f-heading {
+    font-size: 36px;
+    color: #383838;
+    line-height: 43x;
+}
+
+.f-tittle-1 {
+    font-size: 24px;
+    color: #383838;
+    line-height: 29px;
+}
+
+.f-tittle-2 {
+    font-size: 22px;
+    color: #383838;
+    line-height: 26px;
+}
+
+.f-tittle {
+    font-size: 20px;
+    color: #383838;
+    line-height: 23px;
+}
+
+.f-sub-tittle {
+    font-size: 18px;
+    color: #383838;
+    line-height: 22px;
+}
+
+.f-content-1 {
+    font-size: 16px;
+    color: #383838;
+    line-height: 22px;
+}
+
+.f-content {
+    font-size: 16px;
+    color: #383838;
+    line-height: 22px;
+}
+
+/* ================================================ /font ====================================================== */
+
+/* ================================================ button ====================================================== */
+
+.custom-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #858796;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.75rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.35rem;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+/* button primary */
+.btn-primary {
+    color: #fff;
+    background-color: #574AE2;
+    border-color: #574AE2;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #4438C7;
+    border-color: #4438c7;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem #574AE280;
+    box-shadow: 0 0 0 0.2rem #574AE280;
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #fff;
+    background-color: #574AE2;
+    border-color: #574AE2;
+}
+
+/* button secondary */
+.btn-secondary {
+    color: #fff;
+    background-color: #26CDAB;
+    border-color: #26CDAB;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #2CAA90;
+    border-color: #2CAA90;
+}
+
+.btn-secondary:focus,
+.btn-secondary.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem #2CAA9080;
+    box-shadow: 0 0 0 0.2rem #2CAA9080;
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+    color: #fff;
+    background-color: #26CDAB;
+    border-color: #26CDAB;
+}
+
+/* button add */
+.btn-add {
+    color: #fff;
+    background-color: #FF9000;
+    border-color: #FF9000;
+}
+
+.btn-add:hover {
+    color: #fff;
+    background-color: #E58A14;
+    border-color: #E58A14;
+}
+
+.btn-add:focus,
+.btn-add.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem #FF900080;
+    box-shadow: 0 0 0 0.2rem #FF900080;
+}
+
+/* button delete */
+.btn-delete {
+    color: #fff;
+    background-color: #DA163D;
+    border-color: #DA163D;
+}
+
+.btn-delete:hover {
+    color: #fff;
+    background-color: #b8203f;
+    border-color: #b8203f;
+}
+
+.btn-delete:focus,
+.btn-delete.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem #DA163D80;
+    box-shadow: 0 0 0 0.2rem #DA163D80;
+}
+
+/* ================================================ /button ====================================================== */
+
+/* ================================================ login ====================================================== */
+.bg-login {
+    background-color: #FAFBFC;
+}
+
+.shadow-login {
+    -webkit-box-shadow: -6px 7px 4px -6px rgba(150, 150, 150, 1);
+    -moz-box-shadow: -6px 7px 4px -6px rgba(150, 150, 150, 1);
+    box-shadow: -6px 7px 4px -6px rgba(150, 150, 150, 1);
+}
+
+label {
+    color: #0C090D;
+    font-size: 16px;
+}
+
+form.user .form-control-user {
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 1.5rem 1rem;
+}
+
+.form-control:focus {
+    color: #6e707e;
+    background-color: #fff;
+    border-color: #1A7BFF;
+    outline: 0;
+    -webkit-box-shadow: 0px 5px 12px -6px rgba(150, 150, 150, 1);
+    -moz-box-shadow: 0px 5px 12px -6px rgba(150, 150, 150, 1);
+    box-shadow: 0px 5px 12px -6px rgba(150, 150, 150, 1);
+}
+
+.img-login {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+/* ================================================ /login ====================================================== */
+
+
+
+/* ================================================ admin Dashboard ====================================================== */
+.border-left-primary {
+    border-left: 0.25rem solid #574AE2 !important;
+}
+
+/* ================================================ /admin Dashboard ====================================================== */
